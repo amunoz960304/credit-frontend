@@ -74,7 +74,7 @@ const CreditRequestForm = ({ setCreditResponse }: CreditRequestFormProps) => {
               required: 'El email es obligatorio',
               pattern: {
                 value: /\S+@\S+\.\S+/,
-                message: 'E-mail no válido',
+                message: 'Email no válido',
               },
             })}
             placeholder='Email de Registro'
@@ -95,9 +95,9 @@ const CreditRequestForm = ({ setCreditResponse }: CreditRequestFormProps) => {
             id='lastname'
             type='text'
             register={register('lastname', {
-              required: 'El apellido es obligatorio',
+              required: 'Los apellidos es obligatorios',
             })}
-            placeholder='Nombre'
+            placeholder='Apellidos'
             error={errors.lastname}
           />
 
