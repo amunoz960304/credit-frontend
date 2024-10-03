@@ -11,7 +11,7 @@ export default defineConfig({
     host: '0.0.0.0',
     hmr: {
       port: 24678,
-      host: 'localhost',
+      host: '0.0.0.0',
     },
   },
 });
